@@ -23,7 +23,7 @@ const Nav = () => {
                 </li>
             ))}
         </ul>
-        <div>
+        <div className='max-md:hidden'>
           <p className='font-montserrat text-lg'><a href="/">Sign in / Explore Now</a></p>
         </div>
         <div className='hidden max-lg:block'>
