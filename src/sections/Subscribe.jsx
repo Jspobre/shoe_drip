@@ -11,7 +11,7 @@ const Subscribe = () => {
         </h3>
         <div className='flex items-center justify-between max-sm:flex-col lg:max-w-[40%] w-full gap-5 p-2.5 
         sm:border sm:border-slate-gray rounded-full'>
-          <input type="text" placeholder="Subscibe@nike.com"/>
+          <input type="text" placeholder="Subscibe@nike.com" className='focus:outline-none'/>
           <div className='flex max-sm:justify-end items-center max-sm:w-full'>
             <Button label="Sign Up" fullWidth/>
           </div>
