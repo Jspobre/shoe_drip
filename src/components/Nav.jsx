@@ -1,6 +1,7 @@
 import {headerLogo} from '../assets/images'
 import { hamburger } from '../assets/icons'
 import  { navLinks } from '../constants/index';
+import Dropdown from './Dropdown';
 
 
 
@@ -27,7 +28,7 @@ const Nav = () => {
           <p className='font-montserrat text-lg'><a href="/">Sign in / Explore Now</a></p>
         </div>
         <div className='hidden max-lg:block'>
-          <img src={hamburger} alt="Hamburger" width={25} height={25} />
+          <Dropdown />
         </div>
       </nav>
    </header>
