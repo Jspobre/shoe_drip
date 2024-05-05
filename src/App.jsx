@@ -9,13 +9,15 @@ import {
   Footer } from './sections';
 import Nav from './components/Nav';
 import Navbar from './components/Navbar';
+import MyHero from './sections/MyHero';
 
 
 const App = () => (
   <main className="relative">
     <Navbar/>
     <section className="xl:padding-l wide:padding-r padding-b">
-      <Hero />
+      {/* <Hero /> */}
+    <MyHero />
     </section>
     <section className="padding">
         <PopularProducts/>

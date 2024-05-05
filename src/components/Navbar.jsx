@@ -6,14 +6,14 @@ import DropdownButton from "./DropdownButton"
 
 const Navbar = () => {
   return (
-   <header className="px-7 py-8 w-full absolute z-10">
+   <header className="padding-x py-8 w-full absolute z-10">
         <nav className="flex max-container justify-between items-center">
             <a href="/"><img src={headerLogo} alt="Logo"/></a>
             <ul className="flex-1 flex gap-20 text-lg leading-normal text-slate-gray font-montserrat
             max-lg:hidden cursor-pointer justify-center items-center pr-10">
                     {navLinks.map((link) => (
-                        <li>
-                               <a key={link.label} href={link.href}>
+                        <li key={link.label}>
+                               <a  href={link.href}>
                             {link.label}
                         </a>   
                         </li>
