@@ -10,7 +10,7 @@ import {
 import Nav from './components/Nav';
 import Navbar from './components/Navbar';
 import MyHero from './sections/MyHero';
-
+import PopularProductsTwo from './sections/PopularProductsTwo';
 
 const App = () => (
   <main className="relative">
@@ -20,7 +20,8 @@ const App = () => (
     <MyHero />
     </section>
     <section className="padding">
-        <PopularProducts/>
+        {/* <PopularProducts/> */}
+        <PopularProductsTwo />
     </section>
     <section className="padding">
         <SuperQuality/>

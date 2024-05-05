@@ -37,16 +37,16 @@ const MyHero = () => {
             </div>
             </h1>
         </div>
-        <div className="flex flex-1 relative max-xl:padding justify-center items-center pt-14 bg-hero bg-cover
-        xl:min-h-screen max-xl:py-40 w-full ">
+        <div className="flex flex-1 relative justify-center items-center pt-14 bg-center bg-primary bg-hero bg-cover
+        xl:min-h-screen max-xl:py-36 w-full">
             <img src={bigShoeImg} 
             alt=""
              width={610}
               height={512} 
               className="object-contain relative z-10"
               />
-            <div className="flex justify-center gap-10 items-center absolute bottom-[-5%] max-container
-            max-sm:px-6">
+            <div className="flex justify-center gap-10 items-center absolute bottom-[-5%] sm:gap-6
+            max-sm:px-6 sm:left-[10%]">
             {shoes.map((shoe, index) => (
                    <div key={index}>
                       <ShoeCardTwo imgUrl={shoe} bigShoeImg={bigShoeImg} 
