@@ -3,6 +3,9 @@ import { bigShoe1, bigShoe2 } from "../assets/images"
 import { shoes, statistics } from "../constants"
 import ShoeCardTwo from "../components/ShoeCardTwo"
 import { useState } from "react"
+import Button from "../components/Button"
+import { arrowRight } from "../assets/icons"
+
 
 
 const MyHero = () => {
@@ -23,15 +26,16 @@ const MyHero = () => {
             sm:max-w-sm">
             Discover stylish Nike arrivals, quality comfort, and innovation for your active life.
             </p>
-            <button className="text-sm font-montserrat bg-coral-red text-white
+            {/* <button className="text-sm font-montserrat bg-coral-red text-white
             px-16 py-5 rounded-full">
                 Submit
-            </button>
+            </button> */}
+          <Button label="Shop Now" iconUrl={arrowRight} />
             <div className="flex mt-10 gap-10 leading-normal flex-wrap w-full">
               {statistics.map((stat) => (
                       <div key={stat.label}>
-                        <p className="font-palanquin text-[48px]">{stat.value}</p>
-                        <p className="font-montserrat text-[18px] text-slate-gray font-normal">{stat.label}</p>
+                        <p className="font-palanquin text-3xl">{stat.value}</p>
+                        <p className="font-montserrat text-xl text-slate-gray font-normal">{stat.label}</p>
                       </div>
               ))}
             </div>

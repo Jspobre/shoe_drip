@@ -20,7 +20,6 @@ const App = () => (
     <MyHero />
     </section>
     <section className="padding">
-        {/* <PopularProducts/> */}
         <PopularProductsTwo />
     </section>
     <section className="padding">
