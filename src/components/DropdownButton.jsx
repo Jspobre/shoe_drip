@@ -12,7 +12,7 @@ const DropdownButton = () => {
          <img src={hamburger} alt="" width={25} height={25} onClick={() => setIsOpen(!isOpen)} className="pb-2 lg:hidden"/> 
                {isOpen && (
                 <div className="absolute right-0 border border-slate-300 w-[150px] h-[180px] flex gap-2 p-3 flex-col
-                shadow-lg rounded z-10 lg:hidden">
+                shadow-lg rounded z-25 lg:hidden">
                     {navLinks.map((link) => (
                         <a href={link.href} className="flex text-sm font-montserrat">{link.label}</a>
                     ))}

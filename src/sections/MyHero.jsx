@@ -5,6 +5,7 @@ import ShoeCardTwo from "../components/ShoeCardTwo"
 import { useState } from "react"
 import Button from "../components/Button"
 import { arrowRight } from "../assets/icons"
+import { plainCream } from "../assets/images"
 
 
 
@@ -30,7 +31,7 @@ const MyHero = () => {
             px-16 py-5 rounded-full">
                 Submit
             </button> */}
-          <Button label="Shop Now" iconUrl={arrowRight} />
+          <Button label="Shop Now" iconUrl={arrowRight}/>
             <div className="flex mt-10 gap-10 leading-normal flex-wrap w-full">
               {statistics.map((stat) => (
                       <div key={stat.label}>
@@ -50,7 +51,7 @@ const MyHero = () => {
               className="object-contain relative z-10"
               />
             <div className="flex justify-center gap-10 items-center absolute bottom-[-5%] sm:gap-6
-            max-sm:px-6 sm:left-[10%]">
+            max-sm:px-6 sm:left-[10%] lg:right-[10%]">
             {shoes.map((shoe, index) => (
                    <div key={index}>
                       <ShoeCardTwo imgUrl={shoe} bigShoeImg={bigShoeImg} 
