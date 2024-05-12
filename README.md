@@ -13,12 +13,12 @@ Clone the repository:
 
 bash
 Copy code
-git clone https://github.com/yourusername/nike-clone.git
+git clone https://github.com/Jspobre/shoe_drip.git
 Navigate to the project directory:
 
 bash
 Copy code
-cd nike-clone
+cd shoe_drip
 Install dependencies:
 
 bash
@@ -30,7 +30,7 @@ Start the development server:
 bash
 Copy code
 npm run dev
-Open your web browser and visit http://localhost:3000 to view the website.
+Open your web browser and visit http://localhost:5173 to view the website.
 
 Customization
 Feel free to customize the website according to your preferences and requirements. Here are some areas you might want to modify:
