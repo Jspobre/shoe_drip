@@ -9,7 +9,7 @@ const Navbar = () => {
   return (
    <header className="padding-x py-8 w-full absolute z-20">
         <nav className="flex max-container justify-between items-center">
-            <a href="/"><img src={blackLogo} alt="Logo" width={100} height={100}/></a>
+            <a href="/"><img src={headerLogo} alt="Logo" width={100} height={100}/></a>
             <ul className="flex-1 flex gap-20 text-lg leading-normal text-slate-gray font-montserrat
             max-lg:hidden justify-center items-center pr-10 cursor-pointer">
                     {navLinks.map((link) => (
