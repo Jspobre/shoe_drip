@@ -3,9 +3,9 @@
 const ShoeCardTwo = ({imgUrl, bigShoeImg, changeBigShoeImg}) => {
 
     const handleClick = () => {
-           if(bigShoeImg !== imgUrl.bigShoe){
-                    changeBigShoeImg(imgUrl.bigShoe)
-           }
+      if(bigShoeImg !== imgUrl.bigShoe){
+        changeBigShoeImg(imgUrl.bigShoe)
+      }
     }
   return (
     <div className={
