@@ -32,24 +32,36 @@ export const statistics = [
 
 export const products = [
     {
+        id: 1,
         imgURL: shoe4,
         name: "Nike Air Jordan-01",
-        price: "$200.20",
+        price: "$300.20",
+        rating: 4.5,
+        description: "The Nike Air Jordan 10 is a pinnacle of athletic performance and enduring style. Inspired by Michael Jordan's iconic career, this sneaker combines premium materials with innovative design elements for optimal comfort and support. With its distinctive silhouette and timeless appeal, the Air Jordan 10 is a symbol of greatness both on and off the court, captivating sneaker enthusiasts worldwide."
     },
     {
+        id: 2,
         imgURL: shoe5,
         name: "Nike Air Jordan-10",
-        price: "$210.20",
+        price: "$320.20",
+        rating: 4.2,
+        description: "The Nike Air Jordan 10, originally released in 1994, is a significant milestone in the storied history of the Air Jordan line. Designed by Tinker Hatfield, this model was notable for its minimalist aesthetic and the absence of the visible Air-Sole unit. The Air Jordan 10 features a clean, streamlined upper crafted from premium leather, with a distinctive speed-lacing system and a padded collar for enhanced comfort. One of its most memorable design elements is the outsole, which lists Michael Jordan's early career achievements, serving as a tribute to his legacy in the sport of basketball. Despite Michael Jordan's first retirement from basketball, the Air Jordan 10 solidified its place in sneaker culture, admired by both athletes and collectors for its timeless style and historical significance."
     },
     {
+        id: 3,
         imgURL: shoe6,
         name: "Nike Air Jordan-100",
         price: "$220.20",
+        rating: 4.1,
+        description: "The Nike Air Jordan 100 represents a visionary leap into the future of basketball footwear, merging cutting-edge technology with the iconic legacy of the Air Jordan brand. This innovative model boasts a sleek, modern design featuring advanced materials such as ultra-lightweight Flyknit and responsive React cushioning for superior performance on the court. The Air Jordan 100 showcases a dynamic fit system that adapts to the wearer's foot for unparalleled support and comfort. Its aesthetics pay homage to the storied history of the Air Jordan line, with subtle nods to classic models in its design elements. As a symbol of the brand's relentless pursuit of excellence, the Air Jordan 100 stands as a testament to the evolution of basketball sneakers, pushing the boundaries of style, technology, and athletic performance."
     },
     {
+        id: 4,
         imgURL: shoe7,
         name: "Nike Air Jordan-001",
         price: "$230.20",
+        rating: 4.7,
+        description: "The Nike Air Jordan 001 symbolizes the genesis of the legendary Air Jordan lineage, blending heritage and innovation. As a conceptual design, it harkens back to the origins of the brand, capturing the essence of the very first Air Jordan that debuted in 1985. The Air Jordan 001 combines retro aesthetics with modern performance technology, featuring premium leather uppers and a robust sole with advanced cushioning for maximum comfort and support. Its design pays tribute to the original Air Jordan 1 with classic colorways and iconic branding, while incorporating contemporary elements such as breathable mesh panels and enhanced ankle support. The Air Jordan 001 stands as a tribute to the enduring legacy of Michael Jordan and the groundbreaking impact his signature line has had on the world of sports and fashion."
     },
 ];
 

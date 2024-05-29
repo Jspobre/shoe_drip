@@ -1,5 +1,6 @@
 import { products } from "../constants"
 import PopularProductCardTwo from "../components/PopularProductCardTwo"
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 
 
@@ -19,6 +20,7 @@ const PopularProductsTwo = () => {
                       </div>
 
                 ))}
+                
             </div>
           
     </section>
